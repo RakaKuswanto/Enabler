@@ -1,5 +1,9 @@
 # Enabler - Window Control and Interaction Tool
 
+## Example of Enabler in Action:
+
+![Enabler Demo](www.github.com/RakaKuswanto/Enabler/GaEF4kg8Z4.gif)
+
 ## Release Title: **Enabler v1.0 - Initial Release**
 
 ### Release Description:
