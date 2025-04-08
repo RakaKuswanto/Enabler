@@ -1,28 +1,35 @@
 # Enabler - Window Control and Interaction Tool
 
-This project is a Windows Forms application designed to enable and disable specific window controls, manipulate window states, and retrieve or set window text. It uses P/Invoke to interact with the Windows API (`user32.dll`) for window manipulation, including enabling/disabling windows, sending messages, and interacting with child windows.
+## Release Title: **Enabler v1.0 - Initial Release**
 
-### Key Features:
-- **Enable/Disable Window Controls**: Toggle the enabled state of a target window.
-- **Window Visibility Control**: Hide or show windows using `ShowWindow` from the Windows API.
-- **Text Manipulation**: Retrieve and set text for a specific window control.
-- **Child Window Enumeration**: Enumerate and display child windows of a target parent window in a TreeView.
-- **Cursor Tracking for Window Targeting**: Use a custom cursor for targeting specific windows for manipulation.
+### Release Description:
+Welcome to the first release of **Enabler**! This tool is designed to provide advanced window manipulation capabilities for Windows users. It allows you to enable/disable specific window controls, manipulate window visibility, retrieve and set text within windows, and explore child windows. Enabler makes use of Windows API (`user32.dll`) functions to provide a seamless and powerful way to control and interact with other applications running on your system.
 
-### Key Functionalities:
-- **Window Enabling/Disabling**: The application allows the user to enable or disable a window (button control) by sending specific messages to the window handle.
-- **Text Management**: The user can set or retrieve text from a target window using `SendMessage` for controlling text within the window.
-- **Child Window Enumeration**: The tool can list and display child windows of a parent window, allowing for easy navigation and control.
-- **Custom Cursor for Targeting**: A crosshair cursor is used to help the user select a target window for manipulation.
+---
 
-### External Libraries:
-- **user32.dll**: Interacts with various Windows API functions, including window manipulation, cursor position retrieval, and window messaging.
+### Features:
+- **Enable/Disable Window Controls**: Easily toggle the enabled state of any target window or control.
+- **Show/Hide Windows**: Control the visibility of windows using the `ShowWindow` API.
+- **Text Management**: Set or get text from window controls to automate or interact with applications.
+- **Child Window Enumeration**: View and manage child windows within a parent window, displayed in a TreeView.
+- **Custom Cursor for Window Targeting**: Use a crosshair cursor to select and target windows for manipulation.
 
-### Usage:
-- Select a window using the targeting tool (click and drag the crosshair cursor to a window).
-- Enable or disable the selected window, show or hide it, or manipulate its text.
-- View and interact with child windows within the main window.
+### Usage Instructions:
+1. **Launch the Application**: Open the EXE file to run Enabler.
+2. **Target a Window**: Use the custom crosshair cursor to select the window you wish to manipulate.
+3. **Enable/Disable Window**: Toggle the window's enable state with the "Enable" button.
+4. **Show/Hide Window**: Control window visibility with the "Show/Hide" button.
+5. **Set/Get Window Text**: Enable text setting and retrieval with the respective buttons for dynamic interaction.
 
 ### Requirements:
-- .NET Framework (Windows Forms)
-- Windows OS (for interacting with Windows API)
+- **Operating System**: Windows 7 or later
+- **.NET Framework**: This application requires .NET Framework (Windows Forms).
+
+### Notes:
+- This is the **v1.0** release of Enabler. The tool is designed for users who need quick access to window control and automation features.
+- Always ensure that you have permission to interact with other applications before using Enabler on them.
+
+---
+
+### Changelog:
+**v1.0**: Initial release of Enabler with core functionality to enable/disable windows, interact with window text, and manage child windows.
